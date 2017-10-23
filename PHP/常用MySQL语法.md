@@ -22,29 +22,29 @@
 
 6、 判断是否存在数据库dbname存在，存在就删除
 
-    drop database if exists dbname;
+    drop database if exists db_name;
 
-7、 创建数据库dbname
+7、 创建数据库db_name
 
-    create database dbname;
+    create database db_name;
 
-8、 删除数据库dbname
+8、 删除数据库db_name
 
-    drop database dbname;
+    drop database db_name;
 
-9、 使用数据库dbname
+9、 使用数据库db_name
 
-    use dbname;
+    use db_name;
 
 10、 显示数据库中的表
 
     show tables;
 
 
-11、 创建新表tabname
+11、 创建新表tb_name
 
 ```sql
-create table tab_name(
+create table tb_name(
     id TINYINT UNSIGNED NOT NULL AUTO_INCREMENT,　　　// id值。无符号、非空、递增——唯一性，可做主键
 
     name VARCHAR(60) NOT NULL COMMENT '用户姓名',     // COMMENT 添加注释
@@ -67,8 +67,29 @@ create table tab_name(
 12、 复制表
 
     CREATE TABLE tb_name2 SELECT * FROM tb_name;
+    CREATE TABLE tb_name2 SELECT id,name FROM tb_name; // 复制表部分内容（id,name）
 
-13、 
+13、 创建临时表
+
+    CREATE TEMPORARY TABLE tb_name
+
+
+14、 查看表的信息
+
+    DESCRIBE tb_name;
+    SHOW COLUMNS in/from tb_name;
+
+15、 删除表
+
+    DROP [ TEMPORARY ] TABLE [ IF EXISTS ] tb_name[ ,tb_name2.......];
+    DROP TABLE IF EXISTS tb_name;
+
+16、 重命名表
+
+    RENAME TABLE old_name TO new_name;
+    ALTER TABLE old_name RENAME new_name;
+
+17、 
 
 
 
