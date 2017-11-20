@@ -82,14 +82,16 @@ create table tb_name(
 15、 删除表
 
     DROP [ TEMPORARY ] TABLE [ IF EXISTS ] tb_name[ ,tb_name2.......];
-    DROP TABLE IF EXISTS tb_name;
 
 16、 重命名表
 
     RENAME TABLE old_name TO new_name;
     ALTER TABLE old_name RENAME new_name;
 
-17、 
+17、 增加一个列
+
+    Alter table tabname add column col type
+    注：列增加后将不能删除。DB2中列加上后数据类型也不能改变，唯一能改变的是增加varchar类型的长度。
 
 
 
