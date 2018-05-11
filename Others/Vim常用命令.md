@@ -65,8 +65,8 @@
 "打开语法高亮
 syntax on
 
-"使用配色方案  
-colorscheme desert  
+"使用配色方案
+colorscheme desert
 
 "打开文件类型检测功能  
 filetype on
@@ -85,8 +85,8 @@ set nocp
 set clipboard+=unnamed  
   
 "取消VI兼容，VI键盘模式不易用  
-set nocompatible  
-  
+set nocompatible
+
 "显示行号, 或set number  
 set nu  
   
