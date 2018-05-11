@@ -59,6 +59,7 @@
 ## Vim常用设置（`.vimrc`）
 
 ``` javascript
+
 打开语法高亮
 syntax on
 
@@ -169,7 +170,8 @@ set scrolloff=3
 
 ```
 
-#### 参考文献（从如下文献中摘录）
+## 参考文献（从如下文献中摘录）
 
 [Vim配置](https://blog.csdn.net/g_brightboy/article/details/14229139)
+
 [Vim编辑快捷键总结](https://www.jianshu.com/p/6f13474d36ac)
