@@ -1,4 +1,5 @@
 # note
+
 note for learning
 
 # 目录介绍：
@@ -8,5 +9,7 @@ note for learning
 - [PHP](https://github.com/sunha1yang/note/tree/master/PHP)：一个小辣鸡是如何一步一步学习PHP的
 - [Read](https://github.com/sunha1yang/note/tree/master/read)：平时自己所读的文章，不仅仅是技术上的
 - [Others](https://github.com/sunha1yang/note/tree/master/Others)：其他内容总结的大杂烩
+
 # About：
+
 Do more and speak less
