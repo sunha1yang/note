@@ -61,15 +61,16 @@
 #### Vim常用设置（`.vimrc`）
 
 ``` javascript
+
 "打开语法高亮
 syntax on
-  
+
 "使用配色方案  
 colorscheme desert  
-  
+
 "打开文件类型检测功能  
-filetype on  
-  
+filetype on
+
 "不同文件类型采用不同缩进  
 filetype indent on  
   
