@@ -62,7 +62,7 @@
 
 ``` javascript
 
-"打开语法高亮
+打开语法高亮
 syntax on
 
 "使用配色方案
