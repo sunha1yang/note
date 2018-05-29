@@ -128,6 +128,17 @@ function Story(props) {
 
 ```javascript
 ReactDOM.createPortal(child, container);
-1. child:任何可渲染的 React 子元素,例如一个元素，字符串或碎片.
+1. child:任何可渲染的 React 子元素,例如一个元素，字符串或碎片
 2. container:则是一个 DOM 元素.
 ```
+
+2. 通过 Portals 进行事件冒泡
+
+#### 错误边界
+
+1. 错误边界：错误边界是用于捕获其子组件树 JavaScript 异常，记录错误并展示一个回退的 UI 的 React 组件，而不是整个组件树的异常
+2. 错误边界无法捕获如下错误:
+- 事件处理 
+- 异步代码 （例如 setTimeout 或 requestAnimationFrame 回调函数）
+- 服务端渲染
+- 错误边界自身抛出来的错误 （而不是其子组件）
