@@ -142,3 +142,7 @@ ReactDOM.createPortal(child, container);
 - 异步代码 （例如 setTimeout 或 requestAnimationFrame 回调函数）
 - 服务端渲染
 - 错误边界自身抛出来的错误 （而不是其子组件）
+
+#### 其他点：
+
+1. 只要存在`constructor`就要调用`super(props)`，但是并不是所有的组件都需要constructor的，只有在constructor中使用this.props时才需要使用。
